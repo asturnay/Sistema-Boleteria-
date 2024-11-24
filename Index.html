@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Boleteria || Home </title>
+		<link rel="stylesheet" href="Style_Home.css" />
+	</head>
+	<body style="background-color: #eee9e9;"> 
+		<header>
+			<h1 class="titulo">Sistema Boleteria</h1>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Yeison Jimenez</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+                        <button id="finalize-purchase">Finalizar Compra</button>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="Img/Yeison Jimenez-16NOV.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2> Yeison Jimenez</h2>
+					<div class="price-container">
+                        <span>Precio:</span>
+                        <p class="price">$100000</p>
+                    </div>  
+                    <p >Lugar: Arena Cañaveralejo</p>
+					<p >Todas las edades</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Img/florecita rockera.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Florecita Roquera</h2>
+					<div class="price-container">
+                        <span>Precio:</span>
+                        <p class="price">$120000</p>
+                    </div>  
+                    <p >Lugar: Teatro astro plaza</p>
+                    <p >Todas las edades</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Img/oc_abonados.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Abonos Cuadrangulares Once Caldas </h2>
+					<div class="price-container">
+                        <span>Precio :</span>
+                        <p class="price">$90000</p>
+                    </div>  
+                    <p >Lugar: Estadio Palogrande </p>
+                    <p >Todas las edades</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Img/Imagen_Evento.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Feria de Manizales </h2>
+					<div class="price-container">
+                        <span>Precio :</span>
+                        <p class="price">$132000</p>
+                    </div>  
+                    <p >Lugar: Estadio Palogrande </p>
+                    <p >Todas las edades</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Img/6442614.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Concierto Shakira </h2>
+					<div class="price-container">
+                        <span>Precio :</span>
+                        <p class="price">$960000</p>
+                    </div>  
+                    <p >Lugar: El Campin de Bogota</p>
+                    <p >Todas las edades</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+
+		<script src="Carrito.js"></script>
+	</body>
+</html>
